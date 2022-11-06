@@ -1,0 +1,128 @@
+@model MailTax.Models.Supplier
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h4>Edit Supplier</h4>
+<hr/>
+<div>
+    <div>
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly"></div>
+            <input type="hidden" asp-for="SupplierName"/>
+            <div>
+                <label asp-for="SupplierId">Supplier ID</label>
+                <input asp-for="SupplierId"/>
+                <span asp-validation-for="SupplierId"></span>
+            </div>
+            <div>
+                <label asp-for="Category">Default Category</label>
+                <select asp-for="Category" asp-items="ViewBag.Category"></select>
+                <span asp-validation-for="Category"></span>
+            </div>
+            <div>
+                <a href="https://localhost:7035/Categorys/Cre" >Add new category</a>
+            </div>
+            <div>
+                <button type="submit" value="Save">Save Changes</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Cancel</a>
+</div>
+
+
+
+<style>
+    
+body {
+      background-color: #DCF0F2;
+      font-family: trebuchet ms; 
+      font-size: 100%;
+      text-align: center;
+      color: #436573; 
+}
+
+form {
+    width: 16rem;
+    display: inline-block;
+}
+
+a:link {
+    text-decoration-line: none; 
+    color: #436573;
+    display: inline-block;
+    margin: .5rem;
+    padding: .5rem;
+
+}
+
+a:visited {
+    text-decoration-line: none;
+    color: #436573; 
+    display: inline-block
+}
+
+a:hover {
+    text-decoration-line: none;
+    color: #ffffff;
+    display: inline-block
+}
+
+button  {
+    background-color: #436573;
+    color: #DCF0F2;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin: 1rem;
+    width: 10rem;
+    font-size: 1rem;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Trebuchet MS';
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #436573;
+}
+
+input {
+    border:none;
+    border-radius: 1rem;
+    color: #436573;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    margin-top: 0;
+}
+
+textarea:focus , input:focus{
+    outline: #ffffff;
+    color: #436573;
+    background-color: #DCF0F2;
+    font-family: 'Trebuchet MS';
+}
+
+select {
+
+    border: transparent;
+    border-radius: .5rem;
+    color: #436573;
+    width: 12rem;
+    padding: 1rem;
+    margin: 1rem;
+    margin-bottom: -1rem;
+    text-align: center;
+}
+
+</style>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

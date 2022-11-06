@@ -1,0 +1,120 @@
+@model MailTax.Models.Category
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Add Expense Type</h1>
+
+<hr />
+<div>
+    <div>
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly"></div>
+            <div>
+                <input asp-for="CategoryName" placeholder="Name of Expense Type" />
+                <span asp-validation-for="CategoryName"></span>
+            </div>
+            <div>
+                <button type="submit" value="Create">Add Type</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
+
+<style>
+
+body {
+      min-height: 100vh;
+      min-width: 100vh;
+      background-color: #DCF0F2;
+      font-family: trebuchet ms; 
+      font-size: 100%;
+      text-align: center;
+      color: #436573; 
+}
+
+form {
+    width: 20rem;
+    display: inline-block;
+}
+
+a:link {
+    text-decoration-line: none; 
+    color: #436573;
+    display: inline-block;
+    margin: .5rem;
+    padding: .5rem;
+    width: 10rem;
+
+}
+
+a:visited {
+    text-decoration-line: none;
+    color: #436573; 
+    display: inline-block
+}
+
+a:hover {
+    text-decoration-line: none;
+    color: #ffffff;
+    display: inline-block
+}
+
+button  {
+    background-color: #436573;
+    color: #DCF0F2;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin: 1rem;
+    width: 10rem;
+    font-size: 1rem;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Trebuchet MS';
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #436573;
+}
+
+input {
+    border:none;
+    border-radius: 1rem;
+    color: #436573;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+textarea:focus , input:focus{
+    outline: #ffffff;
+    color: #436573;
+    background-color: #DCF0F2;
+    font-family: 'Trebuchet MS';
+}
+
+select {
+
+    border: transparent;
+    border-radius: .5rem;
+    color: #436573;
+    width: 12rem;
+    padding: 1rem;
+    margin: 1rem;
+    margin-bottom: -1rem;
+    text-align: center;
+}
+
+</style>

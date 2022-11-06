@@ -1,0 +1,110 @@
+@model IEnumerable<MailTax.Models.Supplier>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div>
+    <h1><b>Suppliers | </b><a href="https://localhost:7035/Categorys">Analytics </a></h1>
+</div>
+
+<p class="create">
+    <a asp-action="Create">Add Supplier</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Category</th>
+            <th>Supplier ID</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.SupplierName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CategoryNavigation.CategoryId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SupplierId)
+            </td>
+            <td class="actions">
+                <a asp-action="Edit" asp-route-id="@item.SupplierName">Edit</a>
+                <a asp-action="Delete" asp-route-id="@item.SupplierName">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+<style>
+       
+body {
+      background-color: #DCF0F2;
+      font-family: trebuchet ms; 
+      text-align: center;
+      color: #436573; 
+}
+
+a:link {
+    text-decoration-line: none; 
+    color: #436573; 
+    display: inline-block;
+    padding: 2rem;
+    width: 10rem;
+    height: 5rem;
+}
+
+a:visited {
+    text-decoration-line: none;
+    color: #436573; 
+    display: inline-block
+}
+
+a:hover {
+    text-decoration-line: none;
+    color: #ffffff; 
+    display: inline-block
+}
+
+.create a {
+    background-color: #436573;
+    color: #DCF0F2;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin: 1rem;
+    width: 10rem;
+    height: 3.5rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.create a:hover {
+    background-color: #ffffff;
+    color: #436573;
+}
+
+table  {
+       margin-top: 2rem;                
+       border: none;
+       text-align: center;
+}
+
+th , td {
+        width: 5rem;           
+        padding: 1rem;
+        margin: 0;
+        height: 2rem;
+}
+
+.actions a {
+    width: 4rem;
+    padding: 0rem;
+    margin: 0;
+}
+
+</style>

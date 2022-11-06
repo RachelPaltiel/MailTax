@@ -1,0 +1,126 @@
+@model MailTax.Models.Doc
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h4>Edit Document</h4>
+<hr/>
+<div>
+    <div>
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly"></div>
+            <input type="hidden" asp-for="DocId" />
+                <label asp-for="FolderId"></label>
+                <select asp-for="FolderId" asp-items="ViewBag.FolderId">
+                    <option value="" disabled selected>Choose Document</option>
+                </select>
+                <span asp-validation-for="FolderId"></span>
+                <label asp-for="DocName">Rename</label>
+                <input asp-for="DocName"/>
+                <span asp-validation-for="DocName"></span>
+                <label asp-for="DocDesc">Change Details</label>
+                <input asp-for="DocDesc"/>
+                <span asp-validation-for="DocDesc"></span>
+                <label asp-for="DocPath">Change document location</label>
+                <input asp-for="DocPath"/>
+                <span asp-validation-for="DocPath"></span>
+                <button type="submit" value="Save">Save Changes</button>
+
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Cancel</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
+
+<style>
+    
+body {
+      background-color: #DCF0F2;
+      font-family: trebuchet ms; 
+      font-size: 100%;
+      text-align: center;
+      color: #436573; 
+}
+
+form {
+    width: 16rem;
+    display: inline-block;
+}
+
+a:link {
+    text-decoration-line: none; 
+    color: #436573;
+    display: inline-block;
+    margin: .5rem;
+    padding: .5rem;
+
+}
+
+a:visited {
+    text-decoration-line: none;
+    color: #436573; 
+    display: inline-block
+}
+
+a:hover {
+    text-decoration-line: none;
+    color: #ffffff;
+    display: inline-block
+}
+
+button  {
+    background-color: #436573;
+    color: #DCF0F2;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin: 1rem;
+    width: 10rem;
+    font-size: 1rem;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Trebuchet MS';
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #436573;
+}
+
+input {
+    border:none;
+    border-radius: 1rem;
+    color: #436573;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    margin-top: 0;
+}
+
+textarea:focus , input:focus{
+    outline: #ffffff;
+    color: #436573;
+    background-color: #DCF0F2;
+    font-family: 'Trebuchet MS';
+}
+
+select {
+    border: transparent;
+    border-radius: .5rem;
+    color: #436573;
+    width: 12rem;
+    padding: 1rem;
+    margin: 1rem;
+    margin-top: .3rem;
+    text-align: center;
+}
+
+</style>

@@ -1,0 +1,108 @@
+@model MailTax.Models.Folder
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h4>Edit Folder</h4>
+<hr/>
+<div>
+    <div>
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly"></div>
+            <input type="hidden" asp-for="FolderId" />
+                <label asp-for="FolderName">Rename</label>
+                <input asp-for="FolderName"/>
+                <span asp-validation-for="FolderName"></span>
+                <label asp-for="FolderDesc">Change Details</label>
+                <input asp-for="FolderDesc"/>
+                <span asp-validation-for="FolderDesc"></span>
+            <div>
+                <button type="submit" value="Save">Save Changes</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Cancel</a>
+</div>
+
+
+<style>
+    
+body {
+      background-color: #DCF0F2;
+      font-family: trebuchet ms; 
+      font-size: 100%;
+      text-align: center;
+      color: #436573; 
+}
+
+form {
+    width: 16rem;
+    display: inline-block;
+}
+
+a:link {
+    text-decoration-line: none; 
+    color: #436573;
+    display: inline-block;
+    margin: .5rem;
+    padding: .5rem;
+
+}
+
+a:visited {
+    text-decoration-line: none;
+    color: #436573; 
+    display: inline-block
+}
+
+a:hover {
+    text-decoration-line: none;
+    color: #ffffff;
+    display: inline-block
+}
+
+button  {
+    background-color: #436573;
+    color: #DCF0F2;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin: 1rem;
+    width: 10rem;
+    font-size: 1rem;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Trebuchet MS';
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #436573;
+}
+
+input {
+    border:none;
+    border-radius: 1rem;
+    color: #436573;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    margin-top: 0;
+}
+
+textarea:focus , input:focus{
+    outline: #ffffff;
+    color: #436573;
+    background-color: #DCF0F2;
+    font-family: 'Trebuchet MS';
+}
+
+</style>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

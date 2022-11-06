@@ -1,0 +1,96 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="recentPlaces">
+    <h1>Recent Places</h1>
+    <a href="https://localhost:7035/Folders">Water Bills</a>
+    <a href="https://localhost:7035/Folders">Bank</a>
+    <a href="https://localhost:7035/Folders">Medical Docs</a>
+    <a href="https://localhost:7035/Folders">Pay Checks</a>
+</div>
+<div class="quickActions">
+    <h1>Quick Actions</h1>
+    <a href="https://localhost:7035/Expenses/Create">Add Expense</a>
+    <a href="https://localhost:7035/Expenses">Reports</a>
+    <a href="https://localhost:7035/Folders" >Folders</a>
+    <a href="https://localhost:7035/Categorys" >Analytics</a>
+</div>
+
+<style>
+    
+body {
+      min-height: 100vh;
+      min-width: 100vh;
+      background-color: #DCF0F2;
+      font-family: trebuchet ms; 
+      text-align: center;
+      color: #436573;        
+}
+
+a:link {
+    text-decoration-line: none; 
+    color: #436573; 
+    display: inline-block;
+    padding: 2rem;
+    width: 10rem;
+    height: 5rem;
+}
+
+a:visited {
+    text-decoration-line: none;
+    color: #436573; 
+    display: inline-block
+}
+
+a:hover {
+    text-decoration-line: none;
+    color: #ffffff; 
+    display: inline-block
+}
+
+.recentPlaces {
+    display: inline-block;
+    padding: 2rem;
+    text-align: center;
+
+}
+
+.recentPlaces a  {
+    padding: 1rem;
+    padding-top: 1.5rem;
+    width: 10rem;
+    height: 5rem;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    margin: .5rem;
+    margin-top: 1.8rem;
+}
+
+.recentPlaces a:hover {
+    color: #DCF0F2;
+}
+
+.quickActions {
+    display: inline-block;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.quickActions a {
+    background-color: #436573;
+    color: #ffffff;
+    border-radius: 1rem;
+    padding: 1rem;
+    padding-top: 1.8rem;
+    width: 10rem;
+    margin: .5rem;
+    margin-top: 1.8;
+}
+
+.quickActions a:hover {
+    color: #DCF0F2;
+}
+
+</style>
