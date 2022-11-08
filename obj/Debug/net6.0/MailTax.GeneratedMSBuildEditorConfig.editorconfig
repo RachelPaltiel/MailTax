@@ -8,133 +8,133 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MailTax
 build_property.RootNamespace = MailTax
-build_property.ProjectDir = C:\Users\Rachel\OneDrive\Documents\GitHub\MailTax\
+build_property.ProjectDir = c:\Users\Rachel\OneDrive\Documents\GitHub\MailTax\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Rachel\OneDrive\Documents\GitHub\MailTax
+build_property.MSBuildProjectDirectory = c:\Users\Rachel\OneDrive\Documents\GitHub\MailTax
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Categorys/Create.cshtml]
+[c:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Categorys/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Categorys/Delete.cshtml]
+[c:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Categorys/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Categorys/Details.cshtml]
+[c:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Categorys/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Categorys/Edit.cshtml]
+[c:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Categorys/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Categorys/Index.cshtml]
+[c:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Categorys/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Docs/Create.cshtml]
+[c:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Docs/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Docs/Delete.cshtml]
+[c:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Docs/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Docs/Details.cshtml]
+[c:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Docs/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Docs/Edit.cshtml]
+[c:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Docs/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Docs/Index.cshtml]
+[c:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Docs/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Expenses/Create.cshtml]
+[c:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Expenses/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZW5zZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Expenses/Delete.cshtml]
+[c:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Expenses/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZW5zZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Expenses/Details.cshtml]
+[c:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Expenses/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZW5zZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Expenses/Edit.cshtml]
+[c:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Expenses/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZW5zZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Expenses/Index.cshtml]
+[c:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Expenses/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZW5zZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Folders/Create.cshtml]
+[c:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Folders/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9sZGVyc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Folders/Delete.cshtml]
+[c:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Folders/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9sZGVyc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Folders/Details.cshtml]
+[c:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Folders/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9sZGVyc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Folders/Edit.cshtml]
+[c:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Folders/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9sZGVyc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Folders/Index.cshtml]
+[c:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Folders/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9sZGVyc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Home/Index.cshtml]
+[c:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Shared/Error.cshtml]
+[c:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Suppliers/Create.cshtml]
+[c:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Suppliers/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Suppliers/Delete.cshtml]
+[c:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Suppliers/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Suppliers/Details.cshtml]
+[c:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Suppliers/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Suppliers/Edit.cshtml]
+[c:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Suppliers/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Suppliers/Index.cshtml]
+[c:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Suppliers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/_ViewImports.cshtml]
+[c:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/_ViewStart.cshtml]
+[c:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Shared/_Layout.cshtml]
+[c:/Users/Rachel/OneDrive/Documents/GitHub/MailTax/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-uq8ip1vura
